@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "run": "cd express-server && npm run dev && cd .. && npm run dev"
   },
   "dependencies": {
     "@types/node": "18.14.6",
